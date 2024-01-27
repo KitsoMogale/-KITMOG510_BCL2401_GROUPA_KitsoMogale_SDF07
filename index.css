@@ -1,0 +1,57 @@
+html, body {
+    margin: 0;
+    padding: 5px;
+    user-select: none;
+
+}
+
+img{
+    width:100%;
+    
+}
+
+h1{
+    color:orange;
+    
+}
+
+#div1{
+    display:flex;
+    flex-direction: column;
+    gap:5px;
+    align-items: center;
+}
+
+#btn0{
+    background-color: green;
+    width:80px;
+    font-weight: bold;
+    padding:2px;
+}
+
+#input{
+    background-color: pink;
+    
+}
+
+#ul{
+  display:flex;
+  flex-wrap:wrap;  
+  list-style-type: none;
+}
+
+ul li {
+    font-size: 20px;
+    background-color: yellowgreen;
+    padding: 15px;
+    border-radius: 8px;
+    flex-grow: 1;
+    text-align: center;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+    margin:5px;
+}
+
+ul li:hover {
+    background-color: gray;
+    cursor: pointer;
+}
